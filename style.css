@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+    font-size: 1rem;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.Flask-Sharp,.Apps,.Person {
+    font-size: 1rem;
+    position: relative;
+    top: 2px;
+}
+
+.Gmail:hover {
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    background-color: pink;
+}
+
+.Images:hover {
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    background-color: pink;
+}
+
+.Flask-Sharp:hover {
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    background-color: pink;
+}
+
+.Apps:hover {
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    background-color: pink;
+}
+
+.Person:hover {
+    padding: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    background-color: pink;
+}
+
+main {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Googlelogo {
+    display: flex;
+    width: auto;
+    bottom: 50px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Searchicon {
+    margin-top: 26px;
+    margin-left: 3px;
+}
+
+.Search {
+    width: 300px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 10px;
+
+}
+
+.Searchbar {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 8%;
+    border: 1px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 5px;
+    margin-left: 5%;
+    margin-right: 140px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Audio, .googlelens{
+    width: 25px;
+    display: flex;
+    gap: 50px;
+}
+
+.Audio {
+    width: 25px;
+    display: flex;
+    position: relative;
+    margin-left: 150px;
+    margin-right:0px;
+    bottom: 25px;
+}
+
+.googlelens {
+    display: flex;
+    width: 25px;
+    position: relative;
+    bottom: 25px;
+    margin-right: -240px;
+}
+
+.Search {
+    width: 300px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+@media screen and (width <= 500) {
+    .header {
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+    .Googlelogo {
+        justify-content: center;
+    }
+    .Searchbar {
+        justify-content: center;
+        width: 37px;
+        margin-left: 2px;
+    }
+}
